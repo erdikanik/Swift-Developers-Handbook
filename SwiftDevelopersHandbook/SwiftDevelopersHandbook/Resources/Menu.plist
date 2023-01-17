@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>house.circle.fill</string>
+			<key>name</key>
+			<string>Home</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>questionmark.circle.fill</string>
+			<key>name</key>
+			<string>Interview Questions</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>p.circle.fill</string>
+			<key>name</key>
+			<string>Design Patterns</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>video.circle.fill</string>
+			<key>name</key>
+			<string>Videos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
