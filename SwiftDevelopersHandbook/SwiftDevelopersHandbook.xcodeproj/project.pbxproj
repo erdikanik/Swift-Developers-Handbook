@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8715E2B229ACC73800082A75 /* QuestionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715E2B129ACC73800082A75 /* QuestionPagingView.swift */; };
+		87D17D842976B37600268460 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D17D832976B37600268460 /* HomeView.swift */; };
+		87D17D872976B5CF00268460 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D17D862976B5CF00268460 /* QuestionView.swift */; };
+		87D17D892976B8CD00268460 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D17D882976B8CD00268460 /* MultipleChoiceView.swift */; };
+		87D17D8C2976D2B400268460 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 87D17D8B2976D2B400268460 /* LoremSwiftum */; };
 		87EB41AE295B076F006745C3 /* SwiftDevelopersHandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB41AD295B076F006745C3 /* SwiftDevelopersHandbookApp.swift */; };
 		87EB41B2295B0770006745C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EB41B1295B0770006745C3 /* Assets.xcassets */; };
 		87EB41B5295B0770006745C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EB41B4295B0770006745C3 /* Preview Assets.xcassets */; };
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8715E2B129ACC73800082A75 /* QuestionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPagingView.swift; sourceTree = "<group>"; };
+		87D17D832976B37600268460 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		87D17D862976B5CF00268460 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		87D17D882976B8CD00268460 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
 		87EB41AA295B076F006745C3 /* SwiftDevelopersHandbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDevelopersHandbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EB41AD295B076F006745C3 /* SwiftDevelopersHandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDevelopersHandbookApp.swift; sourceTree = "<group>"; };
 		87EB41B1295B0770006745C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D17D8C2976D2B400268460 /* LoremSwiftum in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87D17D822976B36400268460 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				87D17D832976B37600268460 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		87D17D852976B51600268460 /* QuestionChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				87D17D862976B5CF00268460 /* QuestionView.swift */,
+				87D17D882976B8CD00268460 /* MultipleChoiceView.swift */,
+				8715E2B129ACC73800082A75 /* QuestionPagingView.swift */,
+			);
+			path = QuestionChallenge;
+			sourceTree = "<group>";
+		};
 		87EB41A1295B076F006745C3 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +174,7 @@
 		87EB41DA295B234E006745C3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				87D17D852976B51600268460 /* QuestionChallenge */,
 				87EB41DF295B8F06006745C3 /* Contents */,
 				87EB41DD295B24D6006745C3 /* MainView.swift */,
 			);
@@ -155,6 +184,7 @@
 		87EB41DF295B8F06006745C3 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
+				87D17D822976B36400268460 /* Home */,
 			);
 			path = Contents;
 			sourceTree = "<group>";
@@ -185,6 +215,9 @@
 			dependencies = (
 			);
 			name = SwiftDevelopersHandbook;
+			packageProductDependencies = (
+				87D17D8B2976D2B400268460 /* LoremSwiftum */,
+			);
 			productName = SwiftDevelopersHandbook;
 			productReference = 87EB41AA295B076F006745C3 /* SwiftDevelopersHandbook.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +290,9 @@
 				Base,
 			);
 			mainGroup = 87EB41A1295B076F006745C3;
+			packageReferences = (
+				87D17D8A2976D2B400268460 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
 			productRefGroup = 87EB41AB295B076F006745C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,8 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				87EB41DE295B24D6006745C3 /* MainView.swift in Sources */,
+				87D17D892976B8CD00268460 /* MultipleChoiceView.swift in Sources */,
 				87EB41E4295CC246006745C3 /* MenuListProvider.swift in Sources */,
 				87EB41DC295B235A006745C3 /* MenuView.swift in Sources */,
+				8715E2B229ACC73800082A75 /* QuestionPagingView.swift in Sources */,
+				87D17D842976B37600268460 /* HomeView.swift in Sources */,
+				87D17D872976B5CF00268460 /* QuestionView.swift in Sources */,
 				87EB41AE295B076F006745C3 /* SwiftDevelopersHandbookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,6 +684,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87D17D8A2976D2B400268460 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87D17D8B2976D2B400268460 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87D17D8A2976D2B400268460 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87EB41A2295B076F006745C3 /* Project object */;
 }
