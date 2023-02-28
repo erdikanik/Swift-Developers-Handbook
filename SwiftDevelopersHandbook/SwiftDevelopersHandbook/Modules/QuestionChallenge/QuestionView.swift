@@ -9,6 +9,9 @@ import SwiftUI
 import LoremSwiftum
 
 struct QuestionView: View {
+
+    let questions: [Question]
+
     var body: some View {
         VStack {
             QuestionPagingView(totalPageNumber: 10, currentPage: .constant(1))
@@ -45,6 +48,6 @@ struct QuestionView: View {
 
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionView()
+        QuestionView(questions: [])
     }
 }

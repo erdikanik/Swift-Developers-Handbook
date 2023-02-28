@@ -1,0 +1,104 @@
+{
+	"questions": [
+		{
+			"question": "Which keyword is used for constant variables?",
+			"choices": [
+				"var",
+				"let",
+				"const",
+				"lazy"
+			],
+			"answer": 1
+		},
+        {
+            "question": "Which of the following is not a value type?",
+            "choices": [
+                "Array",
+                "Struct",
+                "Dictionary",
+                "Class"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Which programming language cannot be used to make a native ios application?",
+            "choices": [
+                "Swift",
+                "Objective C",
+                "Dart",
+                "C++"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "let nameArray = [\"Alice\", \"Daryl\", \"Rick\", \"Leila\"] \n let result = nameArray.filter { $0.first! == \"R\" } What is the content of the result?",
+            "choices": [
+                "Compiler error",
+                "[\"Alice\"]",
+                "[\"Rick\"]",
+                "[\"Leila\"]"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Which of the following is correct?",
+            "choices": [
+                "Struct -> Value Type",
+                "Class -> Value Type",
+                "Both of them value type",
+                "Both of them reference type"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Which of the following is false?",
+            "choices": [
+                "Struct -> Can be extended",
+                "Class -> Can be extended",
+                "Struct -> Can be protocolled",
+                "Class -> Can be protocolled"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Which of the following is default access modifier?",
+            "choices": [
+                "private",
+                "public",
+                "internal",
+                "weak"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Which of the following is a tuple",
+            "choices": [
+                "2",
+                "This is a string",
+                "(2, 9)",
+                "[\"key\":\"value\"]"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Which of the following can be set (collections)?",
+            "choices": [
+                "[1,2,3,4,4]",
+                "[\"key\": \"value\"]",
+                "(2, 9)",
+                "[1,2,3,4]"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "var array = [\"rich\", \"denny\", \"granny\", \"ally\"]\narray.popLast()\narray.insert(\"ally\", at: 3)\nprint(array)\nWhat is the result of the array?",
+            "choices": [
+                "[\"rich\", \"denny\", \"granny\"]",
+                "[\"rich\", \"denny\", \"granny\", \"ally\"]",
+                "[\"rich\", \"denny\", \"ally\", \"ally\"]",
+                "runtime error"
+            ],
+            "answer": 1
+        }
+	]
+}

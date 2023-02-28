@@ -25,7 +25,7 @@ struct MainView: View {
                 }
 
                 VStack {
-                    QuestionView()
+                    QuestionView(questions: [])
                 }
                 .navigationBarTitle("Dashboard", displayMode: .inline)
                 .navigationBarItems(leading: (
