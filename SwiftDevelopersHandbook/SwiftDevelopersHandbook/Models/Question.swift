@@ -11,5 +11,5 @@ struct Question {
 
     let question: String
     let choices: [String]
-    let correctAnswer: Int
+    let answer: Int
 }
